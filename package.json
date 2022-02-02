@@ -22,14 +22,6 @@
     "prettier": "^2.4.1",
     "uglify-js": "^3.14.3"
   },
-  "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
-    "@babel/preset-react": "^7.16.0",
-    "babelify": "^10.0.0",
-    "prettier": "^2.4.1",
-    "uglify-js": "^3.14.3"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write \"**/*.{css,html,js,json,md}\"",

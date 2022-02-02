@@ -4,6 +4,9 @@ export default class NavBar extends React.Component {
   logout() {
     window.location = '/auth/logout';
   }
+  communityLogin() {
+    window.open('https://linkedin-customer-developer-edition.na85.force.com/css/s/', '_blank')
+  }
 
   render() {
     return (
@@ -41,6 +44,14 @@ export default class NavBar extends React.Component {
                   </svg>
                   Log out
                 </button>
+
+                <button onClick={this.communityLogin} className="slds-button slds-button--neutral">
+                  <svg aria-hidden="true" className="slds-button__icon--stateful slds-button__icon--left">
+                    <use xlinkHref="/assets/icons/utility-sprite/svg/symbols.svg#logout"></use>
+                  </svg>
+                  Community Login
+                </button>
+
               </div>
             )
           }
